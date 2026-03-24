@@ -7,6 +7,7 @@ A mini end-to-end project combining **Data Analysis, Machine Learning, FastAPI, 
 ## 🧩 Modules Overview
 
 ### 📊 1. Analysis (`analysis.py`)
+<img width="851" height="310" alt="Screenshot 2026-03-24 152051" src="https://github.com/user-attachments/assets/3fffa140-933a-4acd-bf26-cb4f1cae96fe" />
 
 * Computes average scores by course
 * Generates visual insights
@@ -25,6 +26,7 @@ ECE students outperform others, while CSE needs improvement.
 ### 🤖 2. Machine Learning (`ml.py`)
 
 * Predicts student score based on study hours
+<img width="765" height="84" alt="Screenshot 2026-03-24 151854" src="https://github.com/user-attachments/assets/4b5fb4c8-2ee6-4a53-b6e1-54a671c1cedd" />
 
 **Output:**
 
@@ -39,7 +41,7 @@ Model is reasonably accurate with low prediction error.
 ### ⚡ 3. FastAPI Backend
 
 Provides REST APIs for student management.
-
+<img width="980" height="478" alt="Screenshot 2026-03-24 151312" src="https://github.com/user-attachments/assets/9dc1d333-d11e-48b1-a0d8-6e334892b590" />
 **Endpoints:**
 
 * `POST /students` → Create
@@ -58,6 +60,7 @@ Provides REST APIs for student management.
 ### 🧪 4. Testing (`pytest`)
 
 * Ran unit tests for API
+<img width="991" height="370" alt="Screenshot 2026-03-24 152229" src="https://github.com/user-attachments/assets/a6f52448-c92e-4718-a452-1efb9e7c0fed" />
 
 **Result:**
 
@@ -70,6 +73,8 @@ Provides REST APIs for student management.
 
 * Bar Chart → Course-wise average
 * Line Chart → Score trend
+<img width="640" height="480" alt="Figure_2" src="https://github.com/user-attachments/assets/f7ccf629-8e1f-43ba-a367-f85fcc259577" />
+<img width="640" height="480" alt="Figure_1" src="https://github.com/user-attachments/assets/a64d7509-e406-4f70-a385-46000b952e92" />
 
 **Observation:**
 
@@ -81,6 +86,7 @@ Provides REST APIs for student management.
 ### 🐳 6. Docker
 
 * Built container images for deployment
+<img width="775" height="107" alt="Screenshot 2026-03-24 154040" src="https://github.com/user-attachments/assets/1b92952a-a51d-41e0-a437-943a5ac9e275" />
 
 **Images:**
 
